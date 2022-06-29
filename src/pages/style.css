@@ -1,0 +1,37 @@
+.notFound, .start{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    user-select: none;
+    color: #333;
+}
+
+.btn{
+    width: 50%;
+    padding: 10px 0px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(104, 65, 245);
+    color: rgb(247, 241, 241);
+    transition: 1s ease;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    background-color: rgb(15, 158, 197);
+}
+
+.text{
+    color: rgb(238, 244, 242);
+}
+
+.start{
+    background-color: rgb(43, 49, 129);
+    height: 100vh;
+}
